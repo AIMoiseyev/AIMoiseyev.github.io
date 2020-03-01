@@ -1,0 +1,7 @@
+.page__main-news {
+  min-height: 690px;
+  transform: translateY(-6.9px);
+  position: relative;
+  overflow: auto;
+  margin-bottom: 85.1px;
+}

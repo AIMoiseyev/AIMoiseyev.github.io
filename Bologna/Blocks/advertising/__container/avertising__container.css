@@ -1,0 +1,7 @@
+.avertising__container {
+  background-image: url('../../../images/advertising.jpg');
+  width: 320px;
+  height: 400px;
+  overflow: auto;
+  position: relative;
+}

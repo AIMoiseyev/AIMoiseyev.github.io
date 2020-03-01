@@ -1,0 +1,8 @@
+.news-block__share {
+  background-image: url('../../../images/arrow-up.png');
+  position: absolute;
+  bottom: 53px;
+  left: 25px;
+  width: 15px;
+  height: 20px;
+}

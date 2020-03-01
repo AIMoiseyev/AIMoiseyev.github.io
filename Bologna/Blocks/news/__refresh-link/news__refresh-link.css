@@ -1,0 +1,11 @@
+.news__refresh-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid  #ebebeb;
+  background-image: url('../../../images/refresh.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+}

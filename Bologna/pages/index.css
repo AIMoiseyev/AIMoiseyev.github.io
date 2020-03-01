@@ -1,0 +1,14 @@
+@import url('../Blocks/page/page.css');
+@import url('../Blocks/header/header.css');
+@import url('../Blocks/main-news/main-news.css');
+@import url('../Blocks/news/news.css');
+@import url('../Blocks/news-block/news-block.css');
+@import url('../Blocks/subscribe/subscribe.css');
+@import url('../Blocks/latest-news/latest-news.css');
+@import url('../Blocks/categories/categories.css');
+@import url('../Blocks/advertising/advertising.css');
+@import url('../Blocks/tags/tags.css');
+@import url('../Blocks/border/border.css');
+@import url('../Blocks/news/__refresh-link/news__refresh-link.css');
+@import url('../Blocks/instagram/instagram.css');
+@import url('../Blocks/footer/footer.css');

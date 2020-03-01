@@ -1,0 +1,8 @@
+.news-block__message {
+  background-image: url('../../../images/message.png');
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+}

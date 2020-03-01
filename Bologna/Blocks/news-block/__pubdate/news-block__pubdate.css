@@ -1,0 +1,13 @@
+.news-block__pubdate {
+  font-family: 'Quattrocento Sans', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.69;
+  letter-spacing: normal;
+  color: #111111;
+  margin: 0 auto 70.1px;
+  display: block;
+  width: max-content;
+}

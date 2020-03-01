@@ -1,0 +1,3 @@
+.categories__list:nth-last-of-type(2n+2) {
+background-color: #f7f7f7;
+}

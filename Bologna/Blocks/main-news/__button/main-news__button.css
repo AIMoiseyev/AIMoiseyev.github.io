@@ -1,0 +1,26 @@
+.main-news__button {
+  background-color: #ff0000;
+  width: 80px;
+  height: 26px;
+  z-index: 1;
+  position: relative;
+  margin: 462px auto 20px;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: 1.12px;
+  font-family: 'Quattrocento Sans', Arial, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.main-news__button:focus {
+  outline: none;
+
+}

@@ -1,0 +1,9 @@
+.news-block__player {
+  background-image: url('../../../images/player.png');
+  position: absolute;
+  bottom: 21px;
+  left: 38px;
+  z-index: 1;
+  width: 307px;
+  height: 48.1px;
+}

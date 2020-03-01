@@ -1,0 +1,13 @@
+.header__subtitle {
+  font-family: 'Quattrocento Sans', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: 0.9px;
+  color: #ccc;
+  text-align: center;
+  margin: 0 0 17px 0;
+  text-transform: uppercase;
+}

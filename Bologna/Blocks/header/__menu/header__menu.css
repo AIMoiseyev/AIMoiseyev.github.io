@@ -1,0 +1,7 @@
+.header__menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0;
+  min-width: 530px;
+}

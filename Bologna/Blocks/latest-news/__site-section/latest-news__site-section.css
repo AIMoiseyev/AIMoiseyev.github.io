@@ -1,0 +1,26 @@
+.latest-news__site-section {
+  font-family: 'Quattrocento Sans', Arial, sans-serif;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #898989;
+  margin: 0 0 11px;
+  display: block;
+  position: relative;
+  width: max-content;
+}
+
+.latest-news__site-section::after {
+  content: '';
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  border-bottom: 2px solid #aeaeae;
+  width: 36px;
+  transform: translateX(-50%);
+}
+

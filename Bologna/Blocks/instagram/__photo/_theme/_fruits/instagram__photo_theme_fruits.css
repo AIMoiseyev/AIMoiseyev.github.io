@@ -1,0 +1,7 @@
+.instagram__photo_theme_fruits {
+  background-image: url('../../../../../images/rfuits.jpg');
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}

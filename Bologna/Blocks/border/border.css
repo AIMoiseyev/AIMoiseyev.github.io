@@ -1,0 +1,8 @@
+.border {
+  border: .5px dashed #d7d7d7;
+  width: 840px;
+  display: block;
+  position: absolute;
+  bottom: calc(0% + 12.9em);
+  left: 0;
+}

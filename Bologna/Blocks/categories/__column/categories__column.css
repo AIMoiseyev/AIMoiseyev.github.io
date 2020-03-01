@@ -1,0 +1,12 @@
+.categories__column {
+  padding-left: 10px;
+  list-style-type: none;
+  font-family: 'Quattrocento Sans', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 34px;
+  letter-spacing: normal;
+  color: #111111;
+}

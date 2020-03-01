@@ -1,0 +1,13 @@
+.tags__title {
+  font-family: 'Rufina', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.02;
+  letter-spacing: normal;
+  text-align: left;
+  color: #252525;
+  border-bottom: 1px solid #d7d7d7;
+  margin-bottom: 38px;
+}

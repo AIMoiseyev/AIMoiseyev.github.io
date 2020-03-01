@@ -1,0 +1,30 @@
+.header__search {
+  height: 15px;
+  border: none;
+  border-right: 1px solid #252525;
+  max-width: 1px;
+  outline: none;
+  transition: max-width .3s;
+  font-family: 'Quattrocento Sans', Arial, sans-serif;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 29px;
+}
+
+.header__search:focus {
+max-width: 100px;
+border: none;
+}
+
+.header__search::placeholder {
+  font-family: 'Quattrocento Sans', Arial, sans-serif;
+}
+
+.header__search::-webkit-input-placeholder {
+  font-family: 'Quattrocento Sans', Arial, sans-serif;
+}
+
+.header__search::-ms-input-placeholder {
+  font-family: 'Quattrocento Sans', Arial, sans-serif;
+}

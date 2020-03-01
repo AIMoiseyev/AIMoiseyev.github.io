@@ -1,0 +1,20 @@
+.tags__list {
+  margin-right: 2px;
+  display: inline-block;
+}
+
+.tags__list::after {
+  content: '';
+  border: .5px solid #ccc;
+  padding-left: 5px;
+  display: inline-block;
+  width: 19px;
+  transform: rotate(.3turn) translatex(-19%);
+  /* transform: translateY(-50%); */
+}
+
+.tags__list:last-of-type::after {
+  content: '';
+  border: none;
+}
+

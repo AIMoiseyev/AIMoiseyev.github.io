@@ -1,0 +1,10 @@
+.main-news__picture {
+  max-width: 1920px;
+  min-width: 1184px;
+  height: 690px;
+  width: 100vw;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

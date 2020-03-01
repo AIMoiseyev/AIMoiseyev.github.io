@@ -1,0 +1,6 @@
+.instagram__grid-container {
+  display: grid;
+  grid-template: repeat(2, 1fr)/ repeat(6, 1fr);
+  min-height: 423.32px;
+  max-height: 598px;
+}

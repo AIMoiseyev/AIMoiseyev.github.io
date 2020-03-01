@@ -1,0 +1,21 @@
+.news-block__song {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin: 0;
+  width: 160px;
+  min-height: 21px;
+  padding-top: 4px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  background-color: black;
+  position: absolute;
+  top: 52.9px;
+  left: 98px;
+  text-align: center;
+}

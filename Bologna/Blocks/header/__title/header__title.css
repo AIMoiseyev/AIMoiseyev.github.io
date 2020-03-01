@@ -1,0 +1,12 @@
+.header__title {
+  font-family: 'Gilda Display', Arial, sans-serif;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.75;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 48px;
+  margin: 66px auto 13px;
+}

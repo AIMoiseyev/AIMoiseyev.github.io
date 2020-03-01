@@ -1,0 +1,4 @@
+.instagram__photo_theme_hand {
+  background-image: url('../../../../../images/hand.jpg');
+  grid-column: 4/span 2;
+}

@@ -1,0 +1,10 @@
+.news__about-me-photo {
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+  object-position: 110%;
+  margin-bottom: 30px;
+  background-color: #e5e5e5;
+  background-position: 100%;
+  display: block;
+}

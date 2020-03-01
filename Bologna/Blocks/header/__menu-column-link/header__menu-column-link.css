@@ -1,0 +1,17 @@
+@import url('_hover/header__menu-column-link_hover.css');
+
+.header__menu-column-link {
+  font-family: 'Quattrocento Sans', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #111;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: opacity .3s ease-in-out;
+  padding: 1px 0 3px;
+  display: block;
+}

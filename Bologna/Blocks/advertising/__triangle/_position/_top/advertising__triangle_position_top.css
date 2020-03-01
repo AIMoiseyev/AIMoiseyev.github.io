@@ -1,0 +1,6 @@
+.advertising__triangle_position_top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+}

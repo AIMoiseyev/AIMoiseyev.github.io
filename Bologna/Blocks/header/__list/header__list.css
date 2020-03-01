@@ -1,0 +1,10 @@
+.header__list {
+  padding: 0;
+  position: relative;
+}
+
+.header__list:hover .header__menu-column {
+  transform: scaleY(1);
+  height: 100%;
+  opacity: 1;
+}

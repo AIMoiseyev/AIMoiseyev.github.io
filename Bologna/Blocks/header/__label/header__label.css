@@ -1,0 +1,8 @@
+.header__label {
+  background-image: url('../../../images/search.png');
+  width: 15px;
+  height: 16px;
+  cursor: pointer;
+}
+
+

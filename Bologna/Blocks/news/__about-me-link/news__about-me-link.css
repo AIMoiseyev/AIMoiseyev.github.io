@@ -1,0 +1,22 @@
+.news__about-me-link {
+  font-family: 'Quattrocento Sans', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+  width: max-content;
+  color: #898989;
+  position: relative;
+  text-decoration: none;
+}
+
+.news__about-me-link::after {
+content: '';
+position: absolute;
+bottom: -4px;
+left: 0;
+width: 81px;
+border-bottom: 2px solid #aeaeae;
+}

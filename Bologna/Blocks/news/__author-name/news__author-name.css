@@ -1,0 +1,12 @@
+.news__author-name {
+  font-family: 'Rufina', Arial, sans-serif;
+  width: max-content;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.67;
+  letter-spacing: normal;
+  color: #252525;
+  margin: 25px 0 29px;
+}

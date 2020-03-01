@@ -1,0 +1,24 @@
+.subscribe__submit {
+  width: 91px;
+  height: 36px;
+  background-color: #111;
+  font-family: 'Quattrocento Sans', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 36px;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  box-sizing: border-box;
+  transform: translateY(-1px);
+}
+
+.subscribe__submit:focus {
+  outline: none;
+}

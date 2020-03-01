@@ -1,0 +1,29 @@
+.instagram__title {
+  font-family: 'Rufina', Arial, sans-serif;
+  font-size: 36.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  text-align: center;
+  color: #252525;
+  position: relative;
+  max-width: 25em;
+  border-bottom: 2px solid #d7d7d7;
+  margin: 0 auto 82.9px;
+  padding-bottom: 34px;
+}
+
+.instagram__title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #b2ae7e;
+  transform: translate(-50%, 50%);
+
+}

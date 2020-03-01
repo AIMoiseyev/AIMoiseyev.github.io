@@ -1,0 +1,8 @@
+@import url('_position/_top/advertising__triangle_position_top.css');
+@import url('_position/_down/advertising__triangle_position_down.css');
+
+.advertising__triangle {
+  background-color: #ffc600;
+  width: 121px;
+  height: 121px;
+}

@@ -1,0 +1,13 @@
+@import url('__form/subscribe__form.css');
+@import url('__label/subscribe__label.css');
+@import url('__email/subscribe__email.css');
+@import url('__submit/subscribe__submit.css');
+
+
+
+.subscribe {
+  width: 320px;
+  min-width: 180px;
+  background-color: #f5f5f5;
+  overflow: auto;
+}

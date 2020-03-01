@@ -1,0 +1,13 @@
+.news-block__subtitle {
+  font-family: 'Quattrocento Sans', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #898989;
+  max-width: 352px;
+  margin: 0 auto 15px;
+}

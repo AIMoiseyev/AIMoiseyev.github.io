@@ -1,0 +1,13 @@
+.latest-news__title {
+  font-family: 'Rufina', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #111111;
+  text-decoration: none;
+  margin: 0 auto 5px;
+}

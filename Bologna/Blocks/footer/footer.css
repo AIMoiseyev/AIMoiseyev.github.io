@@ -1,0 +1,16 @@
+@import url('__column-container/footer__column-container.css');
+@import url('__column/footer__column.css');
+@import url('__copyright-container/footer__copyright-container.css');
+@import url('__copyright/footer__copyright.css');
+@import url('__link/footer__link.css');
+@import url('__list/footer__list.css');
+@import url('__paragraph/footer__paragraph.css');
+
+
+.footer {
+  display: flex;
+  width: 100vw;
+  max-width: 1920px;
+  min-width: 1270px;
+  min-height: 181px;
+}
