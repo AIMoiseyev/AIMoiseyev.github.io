@@ -1,0 +1,8 @@
+@import url('position/down/news__side-instagram-picture_position_down.css');
+@import url('position/bottom/news__side-instagram-picture_position_bottom.css');
+
+.news__side-instagram-picture {
+  width: 160px;
+  height: 167px;
+  object-fit: none;
+}

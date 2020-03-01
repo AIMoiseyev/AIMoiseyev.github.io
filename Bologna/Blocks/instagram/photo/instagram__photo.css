@@ -1,0 +1,16 @@
+@import url('theme/fruits/instagram__photo_theme_fruits.css');
+@import url('theme/hair/instagram__photo_theme_hair.css');
+@import url('theme/hand/instagram__photo_theme_hand.css');
+@import url('theme/legs/instagram__photo_theme_legs.css');
+@import url('theme/mauntain/instagram__photo_theme_mauntain.css');
+@import url('theme/ocean/instagram__photo_theme_ocean.css');
+@import url('theme/scarf/instagram__photo_theme_scarf.css');
+@import url('theme/sea/instagram__photo_theme_sea.css');
+
+.instagram__photo {
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 0;
+}

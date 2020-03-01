@@ -1,0 +1,7 @@
+@import url('facebook/news__social-link_facebook.css');
+@import url('in/news__social-link_in.css');
+@import url('twitter/news__social-link_twitter.css');
+
+.news__social-link {
+  display: inline-block;
+}

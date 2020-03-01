@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Gilda+Display&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rufina:400,700&display=swap&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
-@import url('__header/page__header.css');
-@import url('__main-news/page__main-news.css');
-@import url('__news/page__news.css');
+@import url('header/page__header.css');
+@import url('main-news/page__main-news.css');
+@import url('news/page__news.css');
 
 .page {
 min-width: 1270px;

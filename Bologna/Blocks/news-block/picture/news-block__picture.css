@@ -1,4 +1,4 @@
-@import url('_size_small/_small/news-block__picture_size_small.css');
+@import url('size_small/small/news-block__picture_size_small.css');
 
 .news-block__picture {
   object-fit: cover;

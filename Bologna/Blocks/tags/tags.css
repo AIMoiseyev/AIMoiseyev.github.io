@@ -1,7 +1,7 @@
-@import url('__title/tags__title.css');
-@import url('__column/tags__column.css');
-@import url('__list/tags__list.css');
-@import url('__link/tags__link.css');
+@import url('title/tags__title.css');
+@import url('column/tags__column.css');
+@import url('list/tags__list.css');
+@import url('link/tags__link.css');
 
 .tags {
   width: 320px;

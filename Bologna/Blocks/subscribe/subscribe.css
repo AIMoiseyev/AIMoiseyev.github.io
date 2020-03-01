@@ -1,7 +1,7 @@
-@import url('__form/subscribe__form.css');
-@import url('__label/subscribe__label.css');
-@import url('__email/subscribe__email.css');
-@import url('__submit/subscribe__submit.css');
+@import url('form/subscribe__form.css');
+@import url('label/subscribe__label.css');
+@import url('email/subscribe__email.css');
+@import url('submit/subscribe__submit.css');
 
 
 

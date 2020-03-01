@@ -1,7 +1,7 @@
-@import url('__title/instagram__title.css');
-@import url('__grid-container/instagram__grid-container.css');
-@import url('__photo/instagram__photo.css');
-@import url('__link/instagram__link.css');
+@import url('title/instagram__title.css');
+@import url('grid-container/instagram__grid-container.css');
+@import url('photo/instagram__photo.css');
+@import url('link/instagram__link.css');
 
 
 .instagram {

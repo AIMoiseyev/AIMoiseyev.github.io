@@ -1,8 +1,8 @@
-@import url('__site-section/latest-news__site-section.css');
-@import url('__title/latest-news__title.css');
-@import url('__title-link/latest-news__title-link.css');
-@import url('__pubdate/latest-news__pubdate.css');
-@import url('__span-accent/latest-news__span-accent.css');
+@import url('site-section/latest-news__site-section.css');
+@import url('title/latest-news__title.css');
+@import url('title-link/latest-news__title-link.css');
+@import url('pubdate/latest-news__pubdate.css');
+@import url('span-accent/latest-news__span-accent.css');
 
 
 

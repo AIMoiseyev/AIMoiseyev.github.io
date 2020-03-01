@@ -1,7 +1,7 @@
-@import url('__title/categories__title.css');
-@import url('__column/categories__column.css');
-@import url('__list/categories__list.css');
-@import url('__link/categories__link.css');
+@import url('title/categories__title.css');
+@import url('column/categories__column.css');
+@import url('list/categories__list.css');
+@import url('link/categories__link.css');
 
 .categories {
   max-width: 320px;
