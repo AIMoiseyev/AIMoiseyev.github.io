@@ -22,6 +22,7 @@
 @import url('subscribe/news__subscribe.css');
 @import url('latest-news/news__latest-news.css');
 @import url('advertising/news__advertising.css');
+@import url('refresh-link/news__refresh-link.css');
 
 .news {
   position: relative;
