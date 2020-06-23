@@ -1,0 +1,15 @@
+.footer__link {
+  width: 16px;
+  height: 16px;
+  display: block;
+  transition: transform .3s ease-in-out;
+  display: block;
+}
+
+.footer__link:hover {
+  transform: scale(1.1);
+}
+
+.footer__link:hover .footer__svg {
+  fill: #505F98;
+}

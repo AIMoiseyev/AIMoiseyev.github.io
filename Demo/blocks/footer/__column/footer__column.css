@@ -1,0 +1,13 @@
+.footer__column {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+@media (min-width: 425px) {
+  .footer__column {
+    margin: 0;
+  }
+}

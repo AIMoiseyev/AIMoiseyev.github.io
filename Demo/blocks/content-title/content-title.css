@@ -1,0 +1,16 @@
+.content-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.3335;
+  color: #091133;
+  padding: 0 1rem;
+  margin: 0;
+  max-width: 600px;
+}
+
+@media (min-width: 768px) {
+  .content-title {
+    font-size: 2.25rem;
+  }
+}

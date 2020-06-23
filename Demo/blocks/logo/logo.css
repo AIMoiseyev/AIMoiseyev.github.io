@@ -1,0 +1,24 @@
+.logo {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.25rem;
+  line-height: 1.4615;
+  color: #37447E;
+  order: 1;
+  margin: 0;
+  text-align: center;
+}
+
+@media (min-width: 425px) {
+  .logo {
+    order: unset;
+    width: auto;
+  }
+}
+
+@media (min-width: 540px) {
+  .logo {
+    font-size: 1.625rem;
+  }
+}

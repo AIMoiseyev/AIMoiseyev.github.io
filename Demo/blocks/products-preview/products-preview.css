@@ -1,0 +1,21 @@
+@import url('__image/products-preview__image.css');
+@import url('__container/products-preview__container.css');
+@import url('__card-title/products-preview__card-title.css');
+@import url('__card-text/products-preview__card-text.css');
+@import url('__card/products-preview__card.css');
+@import url('__link/products-preview__link.css');
+@import url('__content-title/products-preview__content-title.css');
+@import url('__content-subtitle/products-preview__content-subtitle.css');
+@import url('__wrapper/products-preview__wrapper.css');
+
+@media (min-width: 540px) {
+  .products-preview {
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .products-preview {
+    justify-content: space-between;
+  }
+}

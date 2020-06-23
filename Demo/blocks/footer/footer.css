@@ -1,0 +1,37 @@
+@import url('__container/footer__container.css');
+@import url('__copyright/footer__copyright.css');
+@import url('__nav-container/footer__nav-container.css');
+@import url('__column/footer__column.css');
+@import url('__list/footer__list.css');
+@import url('__link/footer__link.css');
+@import url('__button/footer__button.css');
+@import url('__svg/footer__svg.css');
+
+.footer {
+  background: #E7ECFF;
+  padding: 1rem 1rem;
+}
+
+@media (min-width: 540px) {
+  .footer {
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 3.75rem 2rem 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding: 3.75rem 7.3125rem 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding: 3.75rem 10.3125rem 2rem;
+  }
+}

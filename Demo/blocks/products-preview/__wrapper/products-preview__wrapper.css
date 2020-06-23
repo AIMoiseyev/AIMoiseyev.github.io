@@ -1,0 +1,26 @@
+@media (min-width: 540px) {
+  .products-preview__wrapper {
+    order: 1;
+    width: 45%;
+  }
+}
+
+@media (min-width: 768px) {
+  .products-preview__wrapper {
+    max-width: 540px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .products-preview__wrapper {
+    margin-left: 7.3125rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .products-preview__wrapper {
+    margin-left: 10.3125rem;
+  }
+}

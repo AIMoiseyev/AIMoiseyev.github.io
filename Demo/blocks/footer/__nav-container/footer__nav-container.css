@@ -1,0 +1,21 @@
+@media (min-width: 425px) {
+  .footer__nav-container {
+    display: grid;
+    grid-template-columns: minmax(auto, 245px) minmax(auto, 200px);
+    grid-gap: 20%;
+    margin-top: 1rem;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer__nav-container {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer__nav-container {
+    margin-top: 1rem;
+  }
+}

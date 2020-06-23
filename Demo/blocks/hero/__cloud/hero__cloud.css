@@ -1,0 +1,60 @@
+.hero__cloud {
+  background: url('../../../images/cloud.png');
+    background-size: cover;
+    width: 100%;
+    height: 155vw;
+    max-height: 500px;
+    position: absolute;
+    top: -153px;
+    left: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 425px) {
+  .hero__cloud {
+    background-position: right;
+    width: 100%;
+    height: 105vw;
+    max-height: 539px;
+    top: -118px;
+  }
+}
+
+@media (min-width: 540px) {
+  .hero__cloud {
+    top: -407px;
+    bottom: 100px;
+    background-size: 100%, cover;
+    max-height: none;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero__cloud {
+    top: -296px;
+    right: -75.5%;
+    bottom: unset;
+    background-size: contain;
+    width: 100%;
+    height: 1120px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero__cloud {
+    top: -153px;
+    height: 87.79vw;
+    max-height: 981px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero__cloud {
+    height: 76.79vw;
+    top: -253px;
+    max-height: 1106px;
+    min-height: 1104px;
+  }
+}

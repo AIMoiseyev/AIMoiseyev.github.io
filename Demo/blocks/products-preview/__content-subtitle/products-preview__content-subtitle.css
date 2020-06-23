@@ -1,0 +1,11 @@
+.products-preview__content-subtitle {
+  margin: 0 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .products-preview__content-subtitle {
+    padding: 0;
+  }
+}
+
+

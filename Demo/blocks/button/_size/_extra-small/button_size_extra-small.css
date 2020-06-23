@@ -1,0 +1,9 @@
+.button_size_extra-small {
+  width: 83px;
+}
+
+@media (min-width: 540px) {
+  .button_size_extra-small {
+    width: 109px;
+  }
+}

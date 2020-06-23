@@ -1,0 +1,25 @@
+@media (min-width: 540px) {
+  .kits__kit {
+    width: 55%;
+  }
+}
+
+@media (min-width: 768px) {
+  .kits__kit {
+    max-width: 445px;
+    margin: 0 1.5rem 0 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .kits__kit {
+    margin-right: 7.3125rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .kits__kit {
+    margin-right: 10.5125rem;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,6 @@
+.button_color_transparent {
+  background-color: transparent;
+  color: #091133;
+  border: 2px solid #091133;
+  box-sizing: border-box;
+}

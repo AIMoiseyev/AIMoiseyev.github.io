@@ -1,0 +1,21 @@
+.pricing__select {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.7145;
+  text-align: center;
+  color: #5D6970;
+  margin: 0 0 1rem;
+}
+
+@media (min-width: 425px) {
+  .pricing__select {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .pricing__select {
+    margin-bottom: 0.75rem;
+  }
+}

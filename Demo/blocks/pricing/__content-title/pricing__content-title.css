@@ -1,0 +1,18 @@
+.pricing__content-title {
+  text-align: center;
+  padding-top: 4rem;
+  margin: 0 auto 1rem;
+  max-width: 480px;
+}
+
+@media (min-width: 768px) {
+  .pricing__content-title {
+    max-width: 550px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .pricing__content-title {
+    padding-top: 2.9rem;
+  }
+}

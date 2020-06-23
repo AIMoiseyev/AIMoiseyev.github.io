@@ -1,0 +1,15 @@
+.page__hero {
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .page__hero {
+    margin-bottom: 6rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page__hero {
+    margin-bottom: 0;
+  }
+}

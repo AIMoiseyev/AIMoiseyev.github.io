@@ -1,0 +1,12 @@
+.pricing__content-subtitle {
+  text-align: center;
+  margin: 0 auto 2rem;
+  max-width: 480px;
+}
+
+@media (min-width: 768px) {
+  .pricing__content-subtitle {
+    margin-bottom: 2.25rem;
+    max-width: 550px;
+  }
+}

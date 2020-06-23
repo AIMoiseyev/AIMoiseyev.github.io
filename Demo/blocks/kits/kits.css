@@ -1,0 +1,37 @@
+@import url('__image/kits__image.css');
+@import url('__kit/kits__kit.css');
+@import url('__content-title/kits__content-title.css');
+@import url('__content-subtitle/kits__content-subtitle.css');
+@import url('__button/kits__button.css');
+
+
+@media (min-width: 540px) {
+  .kits {
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .kits {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1280px) {
+  .kits:nth-of-type(2) .kits__image {
+    margin-left: 10.1125rem;
+  }
+
+  .kits:nth-of-type(2) .kits__content-title {
+    margin-top: 5rem;
+  }
+
+  .kits:nth-of-type(3) .kits__content-title {
+    margin-top: 0.2rem;
+  }
+
+  .kits:last-of-type .kits__image {
+    margin-left: 13.0125rem;
+  }
+}
+

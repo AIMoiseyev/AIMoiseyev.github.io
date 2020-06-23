@@ -1,0 +1,12 @@
+.kits__image_theme_demo {
+  background-image: url('../../../../../images/demo.jpg');
+  width: 100%;
+  height: 65.8vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 315.85px;
+  max-width: 480px;
+}
+
+

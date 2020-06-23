@@ -1,0 +1,11 @@
+.kits__content-subtitle {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .kits__content-subtitle {
+    padding: 0;
+  }
+}
+
+

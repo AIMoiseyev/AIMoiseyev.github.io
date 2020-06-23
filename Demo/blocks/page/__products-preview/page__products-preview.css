@@ -1,0 +1,15 @@
+.page__products-preview {
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .page__products-preview {
+    margin-bottom: 6rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .page__products-preview {
+    margin-bottom: 14.5rem;
+  }
+}

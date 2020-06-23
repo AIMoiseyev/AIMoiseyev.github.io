@@ -1,0 +1,34 @@
+.hero__container {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0 0;
+}
+
+@media (min-width:375px) {
+  .hero__container {
+    justify-content: unset;
+  }
+}
+
+@media (min-width:768px) {
+  .hero__container {
+    padding: 0 2rem;
+    margin-top: 4.25rem;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero__container {
+    padding-left: 7.3125rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero__container {
+    padding-left: 10.3125rem;
+    margin-top: 4.65rem;
+  }
+}

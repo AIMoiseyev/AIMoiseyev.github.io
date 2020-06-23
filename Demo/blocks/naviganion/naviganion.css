@@ -1,0 +1,17 @@
+@import url('__column/navigation__column.css');
+@import url('__list/navigation__list.css');
+@import url('__link/navigation__link.css');
+
+.naviganion {
+  order: 3;
+  margin: 0;
+  width: 100%;
+}
+
+@media (min-width: 425px) {
+  .naviganion {
+    order: unset;
+    align-self: center;
+    max-width: 245px;
+  }
+}

@@ -1,0 +1,6 @@
+.products-preview__link {
+  width: 36px;
+  height: 36px;
+  display: block;
+  background-image: url('../../../images/productphoto.jpg');
+}

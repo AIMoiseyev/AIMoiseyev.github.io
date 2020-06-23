@@ -1,0 +1,15 @@
+.page__header {
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 540px) {
+  .page__header {
+    margin-bottom: 6rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .page__header {
+    margin-bottom: 12.1rem;
+  }
+}

@@ -1,0 +1,17 @@
+.products-preview__content-title {
+  margin: 1.5rem 0 2rem;
+}
+
+@media (min-width: 768px) {
+  .products-preview__content-title {
+    padding: 0;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .products-preview__content-title {
+    margin-top: 3rem;
+  }
+}

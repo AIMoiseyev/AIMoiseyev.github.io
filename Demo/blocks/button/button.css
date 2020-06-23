@@ -1,0 +1,38 @@
+.button {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: #fff;
+  order: 2;
+  width: 121px;
+  height: 26px;
+  border-radius: 2px;
+  background-color: #111B47;
+  cursor: pointer;
+  border: none;
+  transition: transform .3s ease-in-out, background-color .3s ease-in-out, color .3s ease-in-out, border .3s ease-in-out;
+}
+.button:hover {
+  transform: scale(1.1);
+  background-color: transparent;
+  color: #111B47;
+  border: 1px solid #111B47;
+}
+
+.button:focus {
+  border: none;
+  outline: none;
+}
+
+@media (min-width: 425px) {
+  .button {
+    order: unset;
+    justify-self: end;
+  }
+}
+
+@media (min-width: 540px) {
+  .button {
+    width: 160px;
+  }
+}

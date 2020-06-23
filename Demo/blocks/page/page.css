@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+@import url('__header/page__header.css');
+@import url('__hero/page__hero.css');
+@import url('__products-preview/page__products-preview.css');
+@import url('__intro/page__intro.css');
+.page {
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Roboto', Arial, sans-serif;
+}

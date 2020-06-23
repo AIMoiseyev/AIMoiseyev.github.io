@@ -1,0 +1,11 @@
+.navigation__link {
+  color: #505F98;
+  text-decoration: none;
+  transition: color .3s ease-in-out, transform .3s ease-in-out;
+  display: block;
+}
+
+.navigation__link:hover {
+  color: #091133;
+  transform: scale(1.1);
+}

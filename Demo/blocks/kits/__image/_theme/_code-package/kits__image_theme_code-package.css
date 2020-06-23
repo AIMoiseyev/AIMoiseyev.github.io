@@ -1,0 +1,10 @@
+.kits__image_theme_code-package {
+  background-image: url('../../../../../images/package.jpg');
+  width: 100%;
+  height: 65.8vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 312px;
+  max-width: 445px;
+}

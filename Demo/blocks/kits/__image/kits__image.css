@@ -1,0 +1,37 @@
+@import url('_theme/_demo/kits__image_theme_demo.css');
+@import url('_theme/_design/kits__image_theme_design.css');
+@import url('_theme/_code-package/kits__image_theme_code-package.css');
+
+@media (min-width: 540px) {
+  .kits__image {
+    width: 45%;
+    background-size: contain;
+    background-position: top;
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .kits__image {
+    margin-left: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .kits__image {
+    margin-left: 7.3125rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .kits__image {
+    margin-left: 12.0125rem;
+    margin-right: 3rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .kits__image {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,28 @@
+@import url('__image/hero__image.css');
+@import url('__cloud/hero__cloud.css');
+@import url('__title/hero__title.css');
+@import url('__subtitle/hero__subtitle.css');
+@import url('__button/hero__button.css');
+@import url('__container/hero__container.css');
+
+.hero {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    min-height: 82vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    min-height: 76.17vw;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero {
+    min-height: 973px;
+  }
+}

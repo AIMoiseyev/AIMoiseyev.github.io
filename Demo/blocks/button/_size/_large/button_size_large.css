@@ -1,0 +1,14 @@
+.button_size_large {
+  width: 135px;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  height: 36px;
+}
+
+@media (min-width: 540px) {
+  .button_size_large {
+    width: 189px;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}

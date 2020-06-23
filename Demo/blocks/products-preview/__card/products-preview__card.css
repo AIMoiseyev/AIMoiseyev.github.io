@@ -1,0 +1,3 @@
+.products-preview__card {
+  width: calc((100% - 30px)/2);
+}

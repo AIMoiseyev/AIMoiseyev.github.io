@@ -1,0 +1,16 @@
+.kits__button {
+  margin-left: 1rem;
+}
+
+@media (min-width: 768px) {
+  .kits__button {
+    margin-top: 2.75rem;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .kits__button {
+    margin-top: 1.25rem;
+  }
+}
