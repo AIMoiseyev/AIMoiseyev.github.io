@@ -1,0 +1,17 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+  .video__icon-play_margin_bottom {
+    margin-bottom: calc(26vw - 11.7rem);
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .video__icon-play_margin_bottom {
+    margin-bottom: 1.0625rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .video__icon-play_margin_bottom {
+    margin-bottom: 1.4625rem;
+  }
+}

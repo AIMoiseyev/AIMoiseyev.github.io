@@ -1,0 +1,23 @@
+@import url('__cover/page__cover.css');
+@import url('__header/page__header.css');
+@import url('__lead/page__lead.css');
+@import url('__intro/page__intro.css');
+@import url('__photo-grid/page__photo-grid.css');
+@import url('__video/page__video.css');
+@import url('__comments/page__comments.css');
+@import url('__footer/page__footer.css');
+@import url('__places/page__places.css');
+
+.page {
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #2A2C2F;
+  font-family: 'Inter', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}

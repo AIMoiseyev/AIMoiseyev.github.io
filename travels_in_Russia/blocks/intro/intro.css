@@ -1,0 +1,35 @@
+@import url('__title/intro__title.css');
+@import url('__text/intro__text.css');
+@import url('__span-accent/span-accent.css');
+@import url('__abbreviation/intro__abbreviation.css');
+@import url('__quote/intro__quote.css');
+@import url('__column/intro__column.css');
+
+
+.intro {
+  font-family: 'Inter', Arial, sans-serif;
+  max-width: 984px;
+  width: 90.625%;
+  min-height: 437px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .intro {
+    width: auto;
+    padding: 0 1.5rem 0;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .intro {
+    width: auto;
+    padding: 0 1rem 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .intro {
+    width: auto;
+    padding: 0 1rem 0;
+  }
+}

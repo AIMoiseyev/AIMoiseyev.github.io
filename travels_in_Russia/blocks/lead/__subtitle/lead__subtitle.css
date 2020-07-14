@@ -1,0 +1,40 @@
+.lead__subtitle {
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 583px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.87rem;
+  line-height: 1.2;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .lead__subtitle {
+    max-width: 666px;
+
+  }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .lead__subtitle {
+    font-size: 1rem;
+    line-height: 1.4375;
+    max-width: 330px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .lead__subtitle {
+    font-size: 1.4rem;
+    max-width: 392px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .lead__subtitle {
+    font-size: 1rem;
+    max-width: 288px;
+  }
+}

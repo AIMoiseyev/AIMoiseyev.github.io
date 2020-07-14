@@ -1,0 +1,32 @@
+.video__icon-play {
+  width: 41px;
+  height: 41px;
+  background-image: url('../../../images/play.svg');
+  mix-blend-mode: screen;
+  margin: 1.875rem 0 3.625rem 1.875rem;
+  position: relative;
+  z-index: 2;
+}
+
+@media (min-width: 1280px) {
+  .video__icon-play {
+    margin-bottom: 5.875rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .video__icon-play {
+    margin: 1.5rem 0 calc(26vw - 10.25rem) 1.5rem;
+  }
+}
+@media (min-width: 375px) and (max-width: 767px) {
+  .video__icon-play {
+    margin: 1.5rem 0 2.5625rem 1.5rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .video__icon-play {
+    margin: 1rem 0 3.09rem 1rem;
+  }
+}

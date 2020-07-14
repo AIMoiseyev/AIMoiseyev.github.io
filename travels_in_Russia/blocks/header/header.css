@@ -1,0 +1,39 @@
+@import url('__lang/header__lang.css');
+@import url('__logo/header__logo.css');
+@import url('__lang/_selected/header__lang_selected.css');
+
+.header {
+  font-family: 'Inter', Arial, sans-serif;
+  max-width: 90.625%;
+  min-height: 52px;
+  display: flex;
+}
+
+@media (min-width: 1280px) {
+  .header {
+    max-width: 1184px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    min-width: 720px;
+    margin: 0 1,5rem;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .header {
+    min-width: 343px;
+    margin: 0 1rem;
+    max-width: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .header {
+    min-width: 288px;
+    margin: 0 1rem;
+    max-width: none;
+  }
+}

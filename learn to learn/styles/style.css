@@ -1,0 +1,540 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.page {
+    min-width: 1100px;
+    /* мы ещё не умеем делать мобильную версию сайта, */
+    /* поэтому выше установлена минимальная ширина страницы */
+    max-width: 1600px;
+    /* выше установили ограничение по максимальной ширине */
+    margin: 0 auto;
+    /* выше для экранов больше 1600px отцентрировали весь контент */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+* {
+    border: 1px solid red;
+}
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    display: flex;
+    position: relative;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+    /* выше установили ограничения для секции */
+
+.logo {
+    background-image: url(../images/logo.svg);
+    width: 183px;
+    height: 32px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30px;
+    left: 64px;
+    z-index: 1;
+}
+
+.header__title {
+    font-size: 102px;
+    font-weight: bold;
+    width: 730px;
+    line-height: 96px;
+    margin-left: 64px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.header__subtitle {
+    width: 388px;
+    position: absolute;
+    left: 64px;
+    bottom: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    z-index: 2;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+.header__link {
+    color: #2f80ed;
+    text-decoration: none;
+    transition: opacity .5s ease-in-out;
+}
+
+.header__link:hover {
+    opacity: .7;
+}
+
+.header__main-illustration {
+    background-image: url(../images/two_again.png);
+    width: 765px;
+    height: 608px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    z-index: 1;
+}
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__square-pic {
+    height: 568px;
+    width: 568px;
+    background-color: #2f80ed;
+    position: absolute;
+    right: 0;
+    top: 64px;
+    transform: rotate(-15deg);
+    animation: rotation linear 20s infinite;
+}
+
+.two-columns {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.two-columns_padding {
+    padding-top: 160px;
+    padding-bottom: 80px;
+}
+
+.two-columns__brief {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    color: #2f80ed;
+    width: 175px;
+}
+.two-columns__main-text {
+    width: 80%;
+    min-width: 784px;
+}
+
+.two-columns__paragraph:first-of-type {
+    margin-top: 0;
+}
+
+.two-columns__paragraph:last-of-type {
+    margin-bottom: 0;
+}
+
+.two-columns__paragraph {
+    line-height: 34px;
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.span-accent {
+    font-weight: bold;
+}
+
+.section-title {
+    width: 60%;
+    margin: 0 auto 0;
+    text-align: center;
+    line-height: 69px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.section-subtitle {
+    width: 60%;
+    margin: 20px auto 0;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.section-title_line-height {
+    line-height: 1.15;
+}
+.cards {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.cards__item {
+    width: 240px;
+    margin: 60px 100px 0 0;
+}
+
+.cards__title {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cards__description {
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 16px 0 0;
+}
+
+.cards__image {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin: 0 40px 43px;
+}
+
+.video__iframes {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    transform: translate(0, 50px);
+}
+
+.video__iframe {
+    display: block;
+    margin-right: 20px;
+    border: none;
+    width: 515px;
+    height: 316px;
+}
+
+.oakley {
+    background-color: #f2f2f2;
+}
+
+.feinman {
+  height: 790px;
+  position: relative;
+  background-color: #f2f2f2;
+  margin-bottom: 100px;
+}
+
+.feinman__title {
+  width: 684px;
+  text-align: center;
+  margin: auto;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 1;
+  position: relative;
+}
+
+.feinman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  margin: 70px auto 0;
+  z-index: 1;
+  position: relative;
+}
+
+.feinman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #000;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+  z-index: 1;
+  transition: opacity .5s ease-in-out;
+}
+
+.feinman__link:hover {
+  opacity: .7;
+}
+
+.feinman__picture {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url(../images/feinman.png);
+  background-size: contain;
+}
+
+.table {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.table_margin_bottom {
+    margin-bottom: 100px;
+}
+
+.table__cell {
+    width: 250px;
+    margin-top: 60px;
+}
+
+.table__heading {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.table__text {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 20px 0 0;
+}
+
+
+.khan {
+    background-color: #f2f2f2;
+}
+
+.khan__container {
+    padding-top: 105px;
+    width: 80%;
+    margin: auto;
+}
+
+.khan__author {
+    margin: 0;
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.khan__title {
+    margin: 0 0 50px;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.khan__quote {
+    width: 790px;
+    margin: 0 0 36px;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.khan__quote-author {
+    margin: 0 0 10px;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.khan__quote-author-subline {
+    margin: 0 0 68px;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.khan__book-container {
+    margin-right: 20px;
+    display: flex;
+}
+
+.khan__book-pic {
+    width: 620px;
+    height: 608px;
+    background-image: url(../images/book.jpg);
+    background-size: cover;
+    margin: 0 20px 0 0;
+}
+
+.khan__buy-link {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #2f80ed;
+    transition: opacity .5s ease-in-out;
+    height: min-content;
+}
+
+.khan__buy-link:hover {
+    opacity: .7;
+}
+
+.kaufman {
+    background-color: #1f1f1f;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-title_theme_dark {
+    margin-top: 90px;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.section-subtitle_theme_dark {
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.table_theme_dark {
+    margin-bottom: 90px;
+}
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+    z-index: 1;
+}
+
+.kaufman__triangle {
+    width: 877px;
+    height: 877px;
+    background-image: url(../images/triangle.svg);
+    position: absolute;
+    top: 0;
+    right: -210px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: rotation linear 20s infinite;
+}
+
+.resources {
+    margin-top: 100px;
+}
+.resources__logo-zone {
+    width: 1100px;
+    margin: 80px auto 217px;
+    display: flex;
+}
+
+.resources__logo {
+    width: 270px;
+    height: 38px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: opacity .5s ease-in-out;
+}
+
+.resources__logo:hover {
+    opacity: .7;
+}
+
+.resources__logo_arzamas {
+    background-image: url(../images/arzamas.svg);
+}
+
+.resources__logo_nplus1 {
+    background-image: url(../images/n1.svg);
+}
+
+.resources__logo_strelka {
+    background-image: url(../images/strelka.svg);
+}
+
+.resources__logo_polka {
+    background-image: url(../images/polka.svg);
+}
+
+.footer {
+    min-height: 350px;
+    background-color: #1f1f1f;
+}
+.footer__columns {
+    flex-basis: 711px;
+    width: 90%;
+    margin: 0 auto 40px;
+    padding-top: 60px;
+    display: flex;
+    position: relative;
+    min-height: 250px;
+    justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+    flex-basis: 50%;
+    position: relative;
+}
+.logo_place_footer {
+    height: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../images/logo_white.svg);
+}
+
+.footer__author {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.footer__column-heading {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0;
+}
+
+.footer__column-links {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.footer__paragraph {
+    list-style-type: none;
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: white;
+    transition: opacity .5s ease-in-out;
+}
+
+.footer__link:hover {
+    opacity: .7;
+}
+
+.footer__social-icon {
+    width: 16px;
+    height: 16px;
+}
+

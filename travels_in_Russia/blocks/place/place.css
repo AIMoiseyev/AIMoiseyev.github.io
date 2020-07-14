@@ -1,0 +1,66 @@
+@import url('__website/place__website.css');
+@import url('__image/place__image.css');
+@import url('__paragraph/place__paragraph.css');
+@import url('__title/place__title.css');
+@import url('__url-heading/place__url-heading.css');
+@import url('__url/place__url.css');
+@import url('__main-text/place__main-text.css');
+@import url('__breake/place__breake.css');
+
+.place {
+  width: 100%;
+  /* min-height: 589px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: 'Inter', Arial, sans-serif;
+  position: relative;
+}
+
+.place:last-of-type {
+  margin-bottom: 6.75rem;
+}
+
+.place:nth-of-type(4) {
+  margin-bottom: 4.1875rem;
+}
+
+@media (min-width: 1280px) {
+  .place:last-of-type {
+    margin-bottom: 7.0625rem;
+  }
+
+  .place:nth-of-type(2) {
+    margin-bottom: 4.1875rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .place:last-of-type {
+    margin-bottom: 7.1rem;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .place {
+    flex-direction: column;
+  }
+
+  .place:last-of-type {
+    margin-bottom: 4.625rem;
+  }
+
+  .place:nth-of-type(4) {
+    margin-bottom: 2.7875rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .place:last-of-type {
+    margin-bottom: 4.625rem;
+  }
+
+  .place:nth-of-type(4) {
+    margin-bottom: 4.4875rem;
+  }
+}

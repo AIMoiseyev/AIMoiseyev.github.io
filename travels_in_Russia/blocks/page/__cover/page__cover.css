@@ -1,0 +1,30 @@
+.page__cover {
+  max-width: 1184px;
+  margin: 0 auto 9.675rem;
+  position: relative;
+  overflow: auto;
+}
+
+@media (min-width: 1280px) {
+  .page__cover {
+    margin-bottom: 9.3875rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .page__cover {
+    margin-bottom: 6.2125rem;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .page__cover {
+    margin-bottom: 3.375rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .page__cover {
+    margin-bottom: 3.625rem;
+  }
+}

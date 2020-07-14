@@ -1,0 +1,21 @@
+.video__content-subtitle {
+  margin: 0 auto 4rem;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .video__content-subtitle {
+    margin-bottom: 2.925rem;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .video__content-subtitle {
+    margin-bottom: 1.6875rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .video__content-subtitle {
+    margin-bottom: 1.75rem;
+  }
+}

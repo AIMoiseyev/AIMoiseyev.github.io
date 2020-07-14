@@ -1,0 +1,11 @@
+.place__main-text {
+  max-width: 49%;
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .place__main-text {
+    max-width: none;
+    width: 100%;
+  }
+}
+

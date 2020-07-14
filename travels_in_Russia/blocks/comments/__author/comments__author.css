@@ -1,0 +1,16 @@
+.comments__author {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 0.875em;
+  line-height: 1.7;
+  color: #FFFFFF;
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+  .comments__author {
+    order: 2;
+    text-align: center;
+  }
+}
+

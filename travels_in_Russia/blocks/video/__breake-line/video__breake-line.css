@@ -1,0 +1,9 @@
+.video__breake-line {
+  white-space: pre;
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .video__breake-line {
+    white-space: normal;
+  }
+}

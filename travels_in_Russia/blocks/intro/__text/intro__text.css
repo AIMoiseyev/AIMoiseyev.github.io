@@ -1,0 +1,23 @@
+.intro__text {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  color: #FFFFFF;
+  font-size: .81em;
+  line-height: 1.54;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .intro__text {
+    font-size: .75em;
+    line-height: 1.583em;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .intro__text {
+    font-size: 0.75em;
+    line-height: 1.583em;
+  }
+}

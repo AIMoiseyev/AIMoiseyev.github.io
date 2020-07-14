@@ -1,0 +1,38 @@
+.lead__title {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  max-width: 782px;
+  margin: 3.75rem auto 2.125rem;
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 0.98;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .lead__title {
+    font-size: 3.5rem;
+    max-width: 392px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .lead__title {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    max-width: 338px;
+    margin-top: 2.875rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .lead__title {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    max-width: 338px;
+    margin-top: 2.875rem;
+    margin-bottom: 0.95rem;
+  }
+}

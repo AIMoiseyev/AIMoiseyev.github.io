@@ -1,0 +1,27 @@
+.page__video {
+  margin: 0 auto 7.1875rem;
+}
+
+@media (min-width: 1280px) {
+  .page__video {
+    margin-bottom: 6.6875rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .page__video {
+    margin-bottom: 6.5125rem;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .page__video {
+    margin-bottom: 3.5625rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .page__video {
+    margin-bottom: 3.6875rem;
+  }
+}

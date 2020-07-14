@@ -1,0 +1,33 @@
+.comments__content-title {
+  margin: 0 auto 2.375rem;
+  line-height: 0.9025;
+}
+
+@media (min-width: 1280px) {
+  .comments__content-title {
+    margin-bottom: 2.6875rem;
+    line-height: 1.0835;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .comments__content-title {
+    margin-bottom: 2.0625rem;
+    line-height: 1.0935;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .comments__content-title {
+    line-height: 1.125;
+    margin-bottom: 1.325rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .comments__content-title {
+    margin-bottom: 1.375rem;
+    line-height: 1.0935;
+  }
+}
+

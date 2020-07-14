@@ -1,0 +1,42 @@
+.intro__quote {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  margin: 2.4375rem 0 1.4375rem;
+  color: #FFFFFF;
+  max-width: 692px;
+  font-size: 0.875em;
+  line-height: 1.72;
+}
+
+@media (min-width: 1280px) {
+  .intro__quote {
+    max-width: 683px;
+    margin-top: 2rem;
+    margin-bottom: 0.9375rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .intro__quote {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .intro__quote {
+    font-size: 1rem;
+    line-height: 1.6875;
+    margin-top: 1.885rem;
+    margin-bottom: 2.3125rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .intro__quote {
+    font-size: 1rem;
+    line-height: 1.6875;
+    margin-top: 2.385rem;
+    margin-bottom: 2.3125rem;
+  }
+}

@@ -1,0 +1,27 @@
+.page__comments {
+  margin: 0 auto 6.2rem;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .page__comments {
+    margin-bottom: 6.3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .page__comments {
+    margin-bottom: 3.4rem;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .page__comments {
+    margin-bottom: 0.5125rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .page__comments {
+    margin-bottom: 1.25rem;
+  }
+}
